@@ -9,15 +9,26 @@ import UIKit
 
 class HomeTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var labelName: UILabel!
+    @IBOutlet weak var labelLastPrice: UILabel!
+    @IBOutlet weak var labelOpenningPrice: UILabel!
+    @IBOutlet weak var labelClosingPrice: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    func setData(_ model: ItemModel) {
+        labelName.text = model.name
+        labelLastPrice.text = "\(model.lastPrice ?? 1)"
+        labelLastPrice.textColor = model.lastPriceUp ?? false ? .green : .red
+        labelLastPrice.blink()
+        labelOpenningPrice.text = "\(model.openningPrice ?? 1)"
+        labelOpenningPrice.textColor = model.openningPriceUp ?? false ? .green : .red
+        labelOpenningPrice.blink()
+        labelClosingPrice.text = "\(model.closingPrice ?? 1)"
+        labelClosingPrice.textColor = model.closingPriceUp ?? false ? .green : .red
+        labelClosingPrice.blink()
     }
-    
 }

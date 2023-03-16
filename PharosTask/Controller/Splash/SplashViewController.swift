@@ -22,6 +22,7 @@ class SplashViewController: UIViewController, ISplashViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        disableDarkMode()
         presenter.viewDidLoad()
     }
     

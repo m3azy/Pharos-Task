@@ -25,6 +25,15 @@
 		A29FF9D029C36B8C0095171D /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29FF9CF29C36B8C0095171D /* ItemModel.swift */; };
 		A29FF9D429C36D300095171D /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29FF9D229C36D300095171D /* HomeTableViewCell.swift */; };
 		A29FF9D529C36D300095171D /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A29FF9D329C36D300095171D /* HomeTableViewCell.xib */; };
+		A29FF9D729C36DBA0095171D /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29FF9D629C36DBA0095171D /* UILabelExtensions.swift */; };
+		A29FF9D929C36DDD0095171D /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29FF9D829C36DDC0095171D /* UIFontExtension.swift */; };
+		A29FF9EC29C370190095171D /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29FF9EB29C370190095171D /* UITableViewExtensions.swift */; };
+		A29FF9F029C372C10095171D /* DINNextLTW23-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A29FF9ED29C372C00095171D /* DINNextLTW23-Regular.ttf */; };
+		A29FF9F129C372C10095171D /* DINNextLTW23-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A29FF9EE29C372C10095171D /* DINNextLTW23-Bold.ttf */; };
+		A29FF9F229C372C10095171D /* DINNextLTW23-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A29FF9EF29C372C10095171D /* DINNextLTW23-Light.ttf */; };
+		A29FF9F429C3745F0095171D /* DoubleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29FF9F329C3745F0095171D /* DoubleExtensions.swift */; };
+		A29FF9F629C3747A0095171D /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29FF9F529C3747A0095171D /* UIViewControllerExtensions.swift */; };
+		A29FF9F829C374BC0095171D /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29FF9F729C374BC0095171D /* UIViewExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +57,15 @@
 		A29FF9CF29C36B8C0095171D /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		A29FF9D229C36D300095171D /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		A29FF9D329C36D300095171D /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		A29FF9D629C36DBA0095171D /* UILabelExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelExtensions.swift; sourceTree = "<group>"; };
+		A29FF9D829C36DDC0095171D /* UIFontExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
+		A29FF9EB29C370190095171D /* UITableViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtensions.swift; sourceTree = "<group>"; };
+		A29FF9ED29C372C00095171D /* DINNextLTW23-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTW23-Regular.ttf"; sourceTree = "<group>"; };
+		A29FF9EE29C372C10095171D /* DINNextLTW23-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTW23-Bold.ttf"; sourceTree = "<group>"; };
+		A29FF9EF29C372C10095171D /* DINNextLTW23-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTW23-Light.ttf"; sourceTree = "<group>"; };
+		A29FF9F329C3745F0095171D /* DoubleExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleExtensions.swift; sourceTree = "<group>"; };
+		A29FF9F529C3747A0095171D /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		A29FF9F729C374BC0095171D /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +121,7 @@
 		A29FF9B129C361A80095171D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A29FF9DA29C36ECC0095171D /* Fonts */,
 				A29FF9AA29C361000095171D /* Info.plist */,
 				A29FF9A529C361000095171D /* Assets.xcassets */,
 			);
@@ -124,7 +143,13 @@
 		A29FF9BD29C3628B0095171D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				A29FF9D829C36DDC0095171D /* UIFontExtension.swift */,
+				A29FF9D629C36DBA0095171D /* UILabelExtensions.swift */,
 				A29FF9BE29C362980095171D /* NSLayoutConstraintExtensions.swift */,
+				A29FF9EB29C370190095171D /* UITableViewExtensions.swift */,
+				A29FF9F329C3745F0095171D /* DoubleExtensions.swift */,
+				A29FF9F529C3747A0095171D /* UIViewControllerExtensions.swift */,
+				A29FF9F729C374BC0095171D /* UIViewExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -165,6 +190,16 @@
 				A29FF9D329C36D300095171D /* HomeTableViewCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		A29FF9DA29C36ECC0095171D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A29FF9EE29C372C10095171D /* DINNextLTW23-Bold.ttf */,
+				A29FF9EF29C372C10095171D /* DINNextLTW23-Light.ttf */,
+				A29FF9ED29C372C00095171D /* DINNextLTW23-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,9 +262,12 @@
 			files = (
 				A29FF9CD29C369910095171D /* HomeViewController.xib in Resources */,
 				A29FF9A929C361000095171D /* LaunchScreen.storyboard in Resources */,
+				A29FF9F129C372C10095171D /* DINNextLTW23-Bold.ttf in Resources */,
+				A29FF9F029C372C10095171D /* DINNextLTW23-Regular.ttf in Resources */,
 				A29FF9BC29C361FF0095171D /* SplashViewController.xib in Resources */,
 				A29FF9D529C36D300095171D /* HomeTableViewCell.xib in Resources */,
 				A29FF9A629C361000095171D /* Assets.xcassets in Resources */,
+				A29FF9F229C372C10095171D /* DINNextLTW23-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,14 +279,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				A29FF9C929C369910095171D /* HomeInteractor.swift in Sources */,
+				A29FF9D929C36DDD0095171D /* UIFontExtension.swift in Sources */,
 				A29FF9BA29C361FF0095171D /* SplashRouter.swift in Sources */,
 				A29FF9D429C36D300095171D /* HomeTableViewCell.swift in Sources */,
+				A29FF9F629C3747A0095171D /* UIViewControllerExtensions.swift in Sources */,
 				A29FF9BB29C361FF0095171D /* SplashInteractor.swift in Sources */,
+				A29FF9D729C36DBA0095171D /* UILabelExtensions.swift in Sources */,
 				A29FF9B829C361FF0095171D /* SplashViewController.swift in Sources */,
+				A29FF9EC29C370190095171D /* UITableViewExtensions.swift in Sources */,
 				A29FF9CC29C369910095171D /* HomeRouter.swift in Sources */,
+				A29FF9F829C374BC0095171D /* UIViewExtensions.swift in Sources */,
 				A29FF9C229C362DC0095171D /* UIUtils.swift in Sources */,
 				A29FF9D029C36B8C0095171D /* ItemModel.swift in Sources */,
 				A29FF9BF29C362980095171D /* NSLayoutConstraintExtensions.swift in Sources */,
+				A29FF9F429C3745F0095171D /* DoubleExtensions.swift in Sources */,
 				A29FF9CB29C369910095171D /* HomeViewController.swift in Sources */,
 				A29FF99D29C360FD0095171D /* AppDelegate.swift in Sources */,
 				A29FF9CA29C369910095171D /* HomePresenter.swift in Sources */,
@@ -393,7 +437,7 @@
 				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = QEEZ83BU6T;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PharosTask/Info.plist;
+				INFOPLIST_FILE = PharosTask/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
@@ -422,7 +466,7 @@
 				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = QEEZ83BU6T;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PharosTask/Info.plist;
+				INFOPLIST_FILE = PharosTask/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
